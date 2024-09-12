@@ -1,4 +1,4 @@
-import { ChevronDown, Menu } from 'lucide-react';
+import {  Menu } from 'lucide-react';
 import Image from 'next/image'
 import React from 'react'
 import NavList from './NavList';

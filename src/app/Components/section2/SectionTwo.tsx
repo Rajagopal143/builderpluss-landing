@@ -15,7 +15,8 @@ const SectionTwo = () => {
       <div className=" xl:w-[70%] xl:mx-[15%]  bg-white rounded-lg mt-10">
         <div className=" flex gap-3 justify-between text-ligthYellow mt-4">
           {SectionTwoItems.map((item) => (
-            <div
+              <div
+                  key={item.id}
               className="w-full flex flex-col items-center cursor-pointer"
               onClick={() => setSelectedItem(item)}>
               <h1 className="w-32 text-center">{item.name} </h1>

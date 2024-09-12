@@ -1,5 +1,4 @@
 import { NavItems } from "@/constant/data";
-import { ChevronDown } from "lucide-react";
 
 
 
