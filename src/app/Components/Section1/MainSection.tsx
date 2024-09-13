@@ -1,9 +1,10 @@
+import Blur from '@/utils/Blur'
 import React from 'react'
 
 const MainSection = () => {
   return (
-    <div className="w-full h-[100vh] max-sm:h-[70vh]  flex flex-col items-center justify-center relative">
-      <div className="absolute w-32 h-32 -z-[10] top-0   bg-theme blur-3xl"></div>
+    <div className="w-full h-[100vh] max-sm:h-[100vh]   flex flex-col items-center justify-center relative">
+      <Blur className='top-0 right-28'/>
       <div className="absolute w-32 h-32 -z-[10] bottom-0 left-0   bg-theme blur-3xl"></div>
       <div className=" flex flex-col ">
         <h1 className="text-center font-bold bg-ligthGreen bg-clip-text text-transparent text-[65px] max-sm:text-[32px]">

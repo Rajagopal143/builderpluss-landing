@@ -21,7 +21,7 @@ const NavList = () => {
               {nav.hasDropdown ? (
                 <></>
               ) : (
-                <span className="px-2 py-1 font-[400] text-[10px] rounded-xl bg-[#F0EEFB] text-slate-500">
+                <span className="ml-2 px-2 py-1 font-[400] text-[10px] rounded-xl bg-[#F0EEFB] text-slate-500">
                   {nav.label}
                 </span>
               )}
