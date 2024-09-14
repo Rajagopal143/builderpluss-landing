@@ -4,19 +4,19 @@ import Image from "next/image";
 
 const Sectionfour=()=>{
     return (
-      <div className="h-screen w-full rounded-3xl backdrop-blur-sm relative maxsm:mt-20 ">
+      <div className="h-screen max-sm:h-full w-full rounded-3xl backdrop-blur-sm relative maxsm:mt-20 ">
         <Blur className="right-36 bottom-0 " />
             <Blur className="left-[45%] top-10 " />
         <div className="bg-theme bg-clip-text text-transparent text-center text-[44px] font-bold  golos-text ">
           <span>Supercharge</span>
           <span className="mt-[-10] inline"> your apps.</span>
         </div>
-        <div className=" xl:w-[70%] xl:mx-[15%]  h-[70vh] flex flex-col justify-around   rounded-lg mt-10 shadow-md border max-md:w-full p-3 relative">
-            <Image src='http://hubhtml.liquid-themes.com/assets/images/demo/start-hub-x/features/new.svg' alt={"dec"} width={1000} height={1000} className="w-14 h-14 absolute top-10 left-[45%] animate-bounce" />
+        <div className=" xl:w-[70%] xl:mx-[15%]  h-[70vh] max-sm:h-full flex flex-col justify-around   rounded-lg mt-10 shadow-md border max-md:w-full p-3 relative">
+            <Image src='http://hubhtml.liquid-themes.com/assets/images/demo/start-hub-x/features/new.svg' alt={"dec"} width={1000} height={1000} className="w-14 h-14 absolute top-10 left-[45%] animate-bounce  max-sm:right-[-100px]" />
           <h1 className="text-ligthYellow font-bold text-3xl ml-5">key  Feature:</h1>
-            <div className="pl-3 relative max-sm:pl-2 flex flex-wrap mt-10">
+            <div className="pl-3 relative max-sm:pl-2 flex flex-wrap mt-10 max-sm:flex-col max-sm:w-full max-sm:py-10">
               {features.map((fea) => (
-                <div key={fea.id} className="w-1/2 h-fit">
+                <div key={fea.id} className="w-1/2 h-fit max-sm:w-full">
                   <div className="flex items-center gap-5 ">
                     <span className="px-3 py-2 rounded-full bg-[#E7E3FA] text-ligthGreen font-bold  ">
                       <Image
