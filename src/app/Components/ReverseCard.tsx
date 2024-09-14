@@ -16,7 +16,7 @@ const ReverseCard = () => {
             Automate your commits.
           </h1>
           <p className="ml-5 mt-5 font-semibold text-[15px] text-[#4C4C4C] ">
-            We' ve built a suite of AI-powered solutions that can help you make
+            We have built a suite of AI-powered solutions that can help you make
             smarter decisions, faster.
           </p>
         </div>

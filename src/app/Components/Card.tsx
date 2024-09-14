@@ -23,7 +23,7 @@ const Card = () => {
             Automate your commits.
           </h1>
           <p className="ml-10 mt-5 font-semibold text-[15px] text-[#4C4C4C] ">
-            We' ve built a suite of AI-powered solutions that can help you make
+            We ve built a suite of AI-powered solutions that can help you make
             smarter decisions, faster.
           </p>
         </div>
