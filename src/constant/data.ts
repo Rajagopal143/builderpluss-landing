@@ -32,24 +32,24 @@ export const SectionTwoItems: SectionTwoItem[] = [
   },
   {
     id: 2,
-    name: "Seamless 2D CAD Management",
+    name: "Link to Revit for Enriched BIM",
     discription:
-      "Simplify your pre-construction workflows with intelligent automation based on 2D CAD files. Whether you're generating BOQs or managing procurement, our platform processes 2D CAD files with precision, eliminating the need for immediate 3D BIM modeling.",
-    imgUrl: "/id1Png.webp",
+      "Start with 2D CAD and easily export to Revit for enriched BIM modeling. Our platform ensures a smooth transition from 2D to BIM, so you can expand your project capabilities without sacrificing data accuracy or flexibility.",
+    imgUrl: "/2.png",
   },
   {
     id: 3,
-    name: "Seamless 2D CAD Management",
+    name: "AI-Powered Automation",
     discription:
-      "Simplify your pre-construction workflows with intelligent automation based on 2D CAD files. Whether you're generating BOQs or managing procurement, our platform processes 2D CAD files with precision, eliminating the need for immediate 3D BIM modeling.",
-    imgUrl: "/id1Png.webp",
+      "From BOQ generation to procurement optimization, our platform automates the manual tasks tied to your 2D CAD files. Use real-time data insights to streamline project planning and make informed decisions faster.",
+    imgUrl: "/3.png",
   },
   {
     id: 4,
-    name: "Seamless 2D CAD Management",
+    name: "Unlock Unstructured Data",
     discription:
-      "Simplify your pre-construction workflows with intelligent automation based on 2D CAD files. Whether you're generating BOQs or managing procurement, our platform processes 2D CAD files with precision, eliminating the need for immediate 3D BIM modeling.",
-    imgUrl: "/id1Png.webp",
+      "Our AI system can also process unstructured data—like emails, contracts, and reports—and connect them directly to your 2D CAD workflows. All data is unified, ensuring better collaboration and decision-making.",
+    imgUrl: "/4.jpg",
   },
 ];
 

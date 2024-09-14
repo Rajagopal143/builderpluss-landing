@@ -12,7 +12,7 @@ const Sectionfour=()=>{
           <span className="mt-[-10] inline"> your apps.</span>
         </div>
         <div className=" xl:w-[70%] xl:mx-[15%]  h-[70vh] max-sm:h-full flex flex-col justify-around   rounded-lg mt-10 shadow-md border max-md:w-full p-3 relative">
-            <Image src='http://hubhtml.liquid-themes.com/assets/images/demo/start-hub-x/features/new.svg' alt={"dec"} width={1000} height={1000} className="w-14 h-14 absolute top-10 left-[45%] animate-bounce  max-sm:right-[-100px]" />
+            <Image src='http://hubhtml.liquid-themes.com/assets/images/demo/start-hub-x/features/new.svg' alt={"dec"} width={1000} height={1000} className="w-14 h-14 absolute top-10 left-[65%] animate-bounce  right-0" />
           <h1 className="text-ligthYellow font-bold text-3xl ml-5">key  Feature:</h1>
             <div className="pl-3 relative max-sm:pl-2 flex flex-wrap mt-10 max-sm:flex-col max-sm:w-full max-sm:py-10">
               {features.map((fea) => (

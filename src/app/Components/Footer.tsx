@@ -7,8 +7,8 @@ const Footer = () => {
     <div className="h-full max-sm:h-full w-full rounded-3xl backdrop-blur-sm relative maxsm:mt-20 ">
       <Blur className="left-[45%] top-10 " />
       <div className=" xl:w-[70%] xl:mx-[15%]  h-[30vh] max-sm:h-full  rounded-lg mt-10 shadow-md border max-md:w-full p-3 relative">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
+        <div className="flex items-center justify-between max-sm:flex-col ">
+          <div className="flex  items-center gap-2">
             <Image
               src={"/Untitled design(1).png"}
               alt={"logo"}
@@ -20,33 +20,41 @@ const Footer = () => {
               Builderpluss
             </span>
           </div>
-          <div>
-            <Image
-              src={"/linkedin.png"}
-              alt={"linkedInIcon"}
-              width={1000}
-              height={1000}
-              className="w-8 h-8 inline"
-            />{" "}
-            <span className="mr-10">LinkedIn</span>
-            <Image
-              src={"/twitter.png"}
-              alt={"twitterIcon"}
-              width={1000}
-              height={1000}
-              className="w-8 h-8 inline"
-            />{" "}
-            <span className="mr-10">Twitter</span>
-            <span className="mr-10">Privacy Policy</span>
-            <span>Subscribe</span>
+          <div className="max-sm:mt-5 flex gap-3 items-center max-sm:flex">
+            <span className="mr-10">
+              {" "}
+              <Image
+                src={"/linkedin.png"}
+                alt={"linkedInIcon"}
+                width={1000}
+                height={1000}
+                className="w-8 h-8 inline mr-1"
+              />{" "}
+              LinkedIn
+            </span>
+            <span className="mr-10">
+              {" "}
+              <Image
+                src={"/twitter.png"}
+                alt={"twitterIcon"}
+                width={1000}
+                height={1000}
+                className="w-8 h-8 inline mr-1"
+              />{" "}
+              Twitter
+            </span>
+            <div className="max-sm:mt-5">
+              <span className="mr-10 inline">Privacy Policy</span>
+              <span className="inline">Subscribe</span>
+            </div>
           </div>
         </div>
         <hr className=" mt-6" />
         <div className="flex items-center justify-center mt-10">
           <p className={"w-1/2 font-semibold text-[#4C4C4C] text-[12px]"}>
-            These Terms will be applied fully and affect to your use of this
-            Website. By using this Website, you agreed to accept all terms and
-            conditions written in here.
+            This content emphasizes the focus on 2D CAD workflows, the ability
+            to link to Revit for BIM, and the value of AI-powered automation to
+            manage both structured and unstructured data.
           </p>
           <div className="w-1/2 flex items-end justify-end gap-3">
             {" "}

@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        appear: "appear 1s linear forwards",
+      },
+      keyframes: {
+        appear: {
+          "0%": { opacity: "0", clipPath: "inset(100% 100% 0 0)" },
+          "100%": { opacity: "1", clipPath: "inset(0 0 0 0)" },
+        },
+      },
       colors: {
         background: "var(--background)",
         theme:

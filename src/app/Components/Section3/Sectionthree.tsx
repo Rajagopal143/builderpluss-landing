@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 
 const Sectionthree = () => {
+  
   return (
     <div className="h-screen w-full rounded-3xl backdrop-blur-sm relative max-sm:mt-20 ">
       <Blur className="right-36 top-10 " />
@@ -29,7 +30,7 @@ const Sectionthree = () => {
           ))}
         </div>
         <Image
-          src="/daily-payment1.jpg"
+          src="/howitswork.jpg"
           alt={"static image"}
           width={1000}
           height={1000}
