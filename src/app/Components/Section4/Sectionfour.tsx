@@ -1,4 +1,4 @@
-import { features, howItsWork } from "@/constant/data";
+import { features } from "@/constant/data";
 import Blur from "@/utils/Blur"
 import Image from "next/image";
 
