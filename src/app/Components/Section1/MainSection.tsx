@@ -2,7 +2,7 @@ import React from "react";
 import { MotionDiv } from "../AnimatedDiv";
 import Image from "next/image";
 
-const MainSection = () => {
+const   MainSection = () => {
   return (
     <div className="w-full h-[100vh]    flex flex-col items-center justify-center relative">
       <Image

@@ -27,10 +27,9 @@ const Header = () => {
           width={1000}
           height={1000}
           alt="logo"
-          src={"/Untitled design(1).png"}
-          className="w-8 rounded-md overflow-hidden bg-black"
+          src={"/cards/Graph Bim.png"}
+          className="w-24  rounded-md overflow-hidden"
         />
-        <h1 className="text-2xl font-semibold font-serif ml-2">BuilderPluss</h1>
       </div>
 
       {/* NavList for desktop */}

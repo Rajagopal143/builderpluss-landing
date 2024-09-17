@@ -31,7 +31,7 @@ export default function Home() {
         </Heading>
         <Card
           title="ARCHITECTS"
-          imgurl="/role1.webp"
+          imgurl="/cards/architectural-services.jpg.avif"
           reverse={true}
           points={[
             {
@@ -48,7 +48,7 @@ export default function Home() {
           />
         <Card
           title="ENGINEERS"
-          imgurl="/role1.webp"
+          imgurl="/cards/Untitled_design.png.webp"
           points={[
             {
               title: "Accurate Data Extraction",
@@ -64,7 +64,7 @@ export default function Home() {
           />
         <Card
           title="CONTRACTORS"
-          imgurl="/role1.webp"
+          imgurl="/cards/owners-developers.jpg"
           reverse={true}
           points={[
             {
@@ -81,7 +81,7 @@ export default function Home() {
           />
         <Card
           title="OWNERS "
-          imgurl="/role1.webp"
+          imgurl="/cards/how-to-become-a-general-contractor-hero.webp"
           reverse={true}
           points={[
             {

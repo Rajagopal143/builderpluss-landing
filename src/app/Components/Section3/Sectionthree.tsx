@@ -24,7 +24,7 @@ const Sectionthree = () => {
                 </h1>
               </div>
               <p className="text-[13px] pl-20">
-                {work.discription.slice(0, 150)}...
+                {work.discription}
               </p>
             </div>
           ))}

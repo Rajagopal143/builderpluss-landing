@@ -26,7 +26,7 @@ const Card = ({ title, imgurl, points ,reverse}: CardProps) => {
           alt="image"
           width={1000}
           height={1000}
-          className="h-full w-1/2 rounded-md max-sm:w-full "
+          className="h-full w-1/2 rounded-md max-sm:w-full object-cover "
         />
         <div className="pl-4 my-auto w-1/2 max-sm:w-full max-sm:mt-0 max-sm:pl-1">
           <Heading className="text-[40px] font-bold text-ligthGreen ">
