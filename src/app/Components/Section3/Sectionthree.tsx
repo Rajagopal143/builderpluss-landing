@@ -15,17 +15,19 @@ const Sectionthree = () => {
           {howItsWork.map((work) => (
             <div key={work.id} className="pl-9 relative max-sm:pl-2">
               <div className="flex items-center gap-7">
-                <span className="px-6 py-4 rounded-full bg-[#E7E3FA] text-ligthGreen font-bold  ">
+                <span className="px-6 py-4 rounded-full bg-[#E7E3FA] text-ligthGreen font-bold -mt-7 ">
                   {work.id}
                   <span className=" absolute h-full border left-[65px] z-[-10] max-sm:left-[35px]"></span>
                 </span>
+                <div>
                 <h1 className="font-extrabold text-ligthGreen text-2xl">
                   {work.name}
                 </h1>
-              </div>
-              <p className="text-[13px] pl-20">
+              <p className="text-[13px] mt-2 font-bold text-dark-text">
                 {work.discription}
               </p>
+                </div>
+              </div>
             </div>
           ))}
         </MotionDiv>

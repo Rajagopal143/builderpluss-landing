@@ -26,7 +26,7 @@ export default function Home() {
           <Sectionthree />
           <SectionTwo />
           <Sectionfour />
-        <Heading className="text-4xl font-bold text-ligthGreen text-center max-sm:mt-10 mb-5">
+        <Heading className="text-4xl font-bold text-ligthGreen text-center max-sm:mt-10 mb-10">
           Role-Based Solutions
         </Heading>
         <Card

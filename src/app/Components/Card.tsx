@@ -15,10 +15,9 @@ type CardProps = {
 };
 const Card = ({ title, imgurl, points ,reverse}: CardProps) => {
   return (
-    <div className="h-[80vh] w-full rounded-3xl backdrop-blur-sm relative max-sm:mt-10 ">
-
+    <div className="h-[80vh] w-full rounded-3xl backdrop-blur-sm relative max-sm:mt-10 max-sm:h-fit">
       <MotionDiv
-        className={`xl:w-[70%] xl:mx-[15%]  h-[70vh] flex max-sm:flex-col rounded-lg mt-10 shadow-md border max-md:w-full p-3 relative bg-white ${
+        className={`xl:w-[70%] xl:mx-[15%]  h-[70vh] max-sm:h-fit flex max-sm:flex-col rounded-lg mt-10 shadow-md border max-md:w-full p-3 relative bg-white ${
           reverse ? "flex-row-reverse" : ""
         }`}>
         <Image
@@ -26,18 +25,18 @@ const Card = ({ title, imgurl, points ,reverse}: CardProps) => {
           alt="image"
           width={1000}
           height={1000}
-          className="h-full w-1/2 rounded-md max-sm:w-full object-cover max-sm:hidden "
+          className="h-full w-1/2 rounded-md max-sm:w-full object-cover "
         />
-        <div className="pl-4 my-auto w-1/2 max-sm:w-full max-sm:mt-0 max-sm:pl-1">
+        <div className="px-4 my-auto w-1/2 max-sm:w-full max-sm:mt-0 max-sm:pl-1">
           <Heading className="text-[40px] font-bold text-ligthGreen ">
             {title}
           </Heading>
-          {points.map((point,index) => (
-            <div key={index} className="mt-3">
+          {points.map((point, index) => (
+            <div key={index} className="mt-3 ">
               <Heading className="text-[18px]">
                 <span>{point.title}</span>
               </Heading>
-              <p className=" font-semibold py-4 px-3 text-[#4C4C4C] ">
+              <p className=" font-semibold text-[#4C4C4C] ">
                 {point.discription}
               </p>
             </div>

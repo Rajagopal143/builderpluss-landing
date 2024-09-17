@@ -27,7 +27,7 @@ const Write = () => {
             <button className="px-3 py-1 rounded-sm bg-theme text-white mr-5 mt-5  hover:shadow-[lightgreen_0px_5px_15px]">
               Contact Us
             </button>
-            <button className="px-3 py-1 rounded-xl bg-ligthYellow text-white hover:shadow-[lightYellow_0px_5px_15px]">
+            <button className="px-3 py-1 rounded-sm bg-theme text-white hover:shadow-[lightYellow_0px_5px_15px]">
               Schedule a Demo
             </button>
           </div>
