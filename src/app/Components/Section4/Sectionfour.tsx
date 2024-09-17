@@ -4,7 +4,7 @@ import Image from "next/image";
 const Sectionfour=()=>{
     return (
       <div className="h-screen max-sm:h-full w-full rounded-3xl backdrop-blur-sm relative maxsm:mt-20 ">
-        <div className="bg-theme bg-clip-text text-transparent text-center text-[44px] font-bold  golos-text  ">
+        <div className="bg-theme bg-clip-text text-transparent text-center text-[44px] font-bold  golos-text  max-sm:mt-20">
           <span>SUPERCHARGE</span>
           <span className="mt-[-10] inline"> YOUR WORKFLOWS.</span>
         </div>
@@ -34,7 +34,7 @@ const Sectionfour=()=>{
                   </h1>
                 </div>
                 <p className="text-[13px] pl-20">
-                  {fea.discription.slice(0, 150)}...
+                  {fea.discription}
                 </p>
               </div>
             ))}
