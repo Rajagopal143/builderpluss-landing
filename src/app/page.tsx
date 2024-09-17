@@ -82,7 +82,7 @@ export default function Home() {
         <Card
           title="OWNERS "
           imgurl="/cards/how-to-become-a-general-contractor-hero.webp"
-          reverse={true}
+          reverse={false}
           points={[
             {
               title: "Cost Transparency",

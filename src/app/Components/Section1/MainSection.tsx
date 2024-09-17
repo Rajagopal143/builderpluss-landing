@@ -13,11 +13,11 @@ const   MainSection = () => {
         className="absolute z-[-10] left-0 top-0 object-cover h-full w-full"
       />
       <MotionDiv className="flex flex-col">
-        <div className="text-center flex flex-col  font-bold relative bg-clip-text text-transparent text-[3.5rem] max-lg:text-[45px] max-sm:text-[30px] bg-gradient-to-b from-custom-blue to-custom-purple">
-          <span className="p-0 m-0 ">AI POWERED CONNECTED DATA </span>
+        <div className="text-center flex flex-col capitalize font-bold relative bg-clip-text text-transparent text-[3.5rem] max-lg:text-[45px] max-sm:text-[30px] bg-gradient-to-b from-custom-blue to-custom-purple">
+          <span className="p-0 m-0 ">Ai Powered Connected Data </span>
           <span className="p-0 -mt-10 mb-1 max-lg:-mt-5 max-md:mb-2 max-sm:-mt-1">
             {" "}
-            PLATFORM FOR CONSTRUCTION PROJECTS
+            Platform For Construction Projects
           </span>
         </div>
         <p className=" text-dark-text font-bold text-[16px] max-sm:text-[15px] golos-text text-center my-3 ">
