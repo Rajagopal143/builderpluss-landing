@@ -20,17 +20,16 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         theme:
-          "linear-gradient(0deg, rgba(34,195,39,1) 0%, rgba(226,154,0,1) 100%)",
+          "linear-gradient(0deg, #2E56A7 0%, #BB6DE5 100%)",
         foreground: "var(--foreground)",
-        ligthGreen: "rgba(34,195,39,1)",
-        ligthYellow: "rgba(226,154,0,1)",
+        ligthGreen: "#2E56A7",
+        ligthYellow: "#BB6DE5",
         "custom-blue": "#2E56A7",
         "custom-purple": "#BB6DE5",
         "dark-text": "rgba(0, 0, 0, 0.7)",
       },
       backgroundImage: {
-        theme:
-          "linear-gradient(0deg, rgba(34,195,39,1) 0%, rgba(226,154,0,1) 100%)", // Gradient for the theme
+        theme: "linear-gradient(0deg, #BB6DE5  0%, #2E56A7 100%)", // Gradient for the theme
       },
     },
   },

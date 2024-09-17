@@ -25,52 +25,51 @@ export type SectionTwoItem = {
 export const SectionTwoItems: SectionTwoItem[] = [
   {
     id: 1,
-    name: "Seamless 2D CAD Management",
+    name: "2D CAD to Graph Data Conversion",
     discription:
-      "Simplify your pre-construction workflows with intelligent automation based on 2D CAD files. Whether you're generating BOQs or managing procurement, our platform processes 2D CAD files with precision, eliminating the need for immediate 3D BIM modeling.",
-    imgUrl: "/id1Png.webp",
+      "CAD drawings are broken down into logically chunked elements and stored as graph data for efficient data management. ",
+    imgUrl: "/cards/BP1W.png",
   },
   {
     id: 2,
-    name: "Link to Revit for Enriched BIM",
+    name: "Metadata Integration",
     discription:
-      "Start with 2D CAD and easily export to Revit for enriched BIM modeling. Our platform ensures a smooth transition from 2D to BIM, so you can expand your project capabilities without sacrificing data accuracy or flexibility.",
-    imgUrl: "/2.png",
+      "Semantic or metadata from unstructured sources such as PDFs, images, and text is matched to the corresponding CAD elements, enriching the design with relevant project information",
+    imgUrl: "/cards/BP2W.png",
   },
   {
     id: 3,
-    name: "AI-Powered Automation",
+    name: "Automated Reporting & Actions",
     discription:
-      "From BOQ generation to procurement optimization, our platform automates the manual tasks tied to your 2D CAD files. Use real-time data insights to streamline project planning and make informed decisions faster.",
-    imgUrl: "/3.png",
-  },
-  {
-    id: 4,
-    name: "Unlock Unstructured Data",
-    discription:
-      "Our AI system can also process unstructured data—like emails, contracts, and reports—and connect them directly to your 2D CAD workflows. All data is unified, ensuring better collaboration and decision-making.",
-    imgUrl: "/4.jpg",
+      "Automation algorithms generate key project documents and outputs, including BOQs, tenders, invoices, and IFC exports, streamlining the entire construction workflow. ",
+    imgUrl: "/cards/BP3W.png",
   },
 ];
 
 export const howItsWork = [
   {
     id: 1,
-    name: "Integrated 2D CAD System",
+    name: "2D CAD is Sufficient ",
     discription:
-      "The platform is designed around 2D CAD workflows, making it simple to automate key pre-construction tasks without needing a 3D BIM model. Once ready, easily export data to Revit for further project development.",
+      "The platform processes 2D CAD files to Graph – BIM without needing 3D models",
   },
   {
     id: 2,
-    name: "AI-Powered Automation",
+    name: "Works with Unstructured Data",
     discription:
-      "Automate routine tasks, from BOQ creation to procurement planning, based on your CAD files. Our AI ensures that your data is always accurate and up-to-date, reducing manual errors and speeding up workflows.",
+      " Integrates data from documents, images, and PDFs, Spreadsheets, Website data directly to CAD. ",
   },
   {
     id: 3,
-    name: "Connecting Unstructured Data",
+    name: "Leverages Previous Project Knowledge",
     discription:
-      "Leverage unstructured project data like contracts or emails by linking it directly to relevant 2D CAD files. AI identifies connections, making project management more holistic and efficient.",
+      " Reuse data from past projects for cost predictions and workflow improvements. ",
+  },
+  {
+    id: 4,
+    name: "Export to IFC & Revit:",
+    discription:
+      " Allows seamless integration with industry-standard formats for 3D modeling and collaboration. ",
   },
 ];
 
@@ -78,29 +77,29 @@ export const features = [
   {
     id: 1,
     icon: "/template.png",
-    name: "BOQ Automation for 2D CAD",
+    name: "Dynamic BOQ (Bill of Quantities) Generation: ",
     discription:
-      "Generate precise Bill of Quantities directly from your 2D CAD files. Eliminate manual calculations and achieve real-time accuracy across all project stages.",
+      "Graph-based data enables dynamic BOQ generation tied to the project’s evolving design, ensuring precise cost estimations and material forecasting. ",
   },
   {
     id: 2,
     icon: "/revit.png",
-    name: "Seamless Integration with Revit",
+    name: "Automated Procurement Processes: ",
     discription:
-      "Automatically link your 2D CAD files to Revit for 3D BIM development. Our platform supports data enrichment, allowing teams to expand their project models from CAD to BIM without starting from scratch.",
+      "GraphBIM can link project specifications with procurement needs, automating purchase orders (POs) based on construction stages, material requirements, and timelines. This ensures materials are ordered just in time, minimizing storage costs.",
   },
   {
     id: 3,
     icon: "/cad.png",
-    name: "Procurement Optimization",
+    name: "Automated Billing and Payment Schedules: ",
     discription:
-      "Optimize your procurement by linking 2D CAD designs to real-time material costs and availability. AI-driven insights ensure that your procurement process is both efficient and cost-effective.",
+      "AI algorithms can track the completion of different project stages and automatically trigger billing cycles or vendor payments, ensuring financial workflows stay aligned with project progress.",
   },
   {
     id: 4,
     icon: "/data-collection.png",
-    name: "Unstructured Data Integration",
+    name: "Seamless Revit Integration: ",
     discription:
-      "AI processes unstructured data—like documents, PDFs, and communication threads—and connects them to your 2D CAD workflows. Get insights from all your data sources in one place.",
+      "Automatically link your enriched 2D CAD files to Revit for 3D model development. Our platform supports data enrichment, allowing teams to expand their project models from CAD to BIM without starting from scratch. ",
   },
 ];

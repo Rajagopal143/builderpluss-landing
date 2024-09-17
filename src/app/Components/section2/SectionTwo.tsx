@@ -1,6 +1,5 @@
 "use client";
 import { SectionTwoItem, SectionTwoItems } from "@/constant/data";
-import Blur from "@/utils/Blur";
 import Image from "next/image";
 import React, { useState } from "react";
 
@@ -10,12 +9,10 @@ const SectionTwo = () => {
   );
   return (
     <div className="h-screen w-full rounded-3xl backdrop-blur-sm relative ">
-      <Blur className="right-36 top-10 " />
-      <Blur className="left-36 top-72 " />
-      <h1 className="bg-theme bg-clip-text text-transparent text-center text-[44px] font-bold">
+      <h1 className="bg-theme bg-clip-text text-transparent text-center text-[44px] font-bold   ">
         AI-Powered Pre-Construction
       </h1>
-      <div className=" xl:w-[70%] xl:mx-[15%]  rounded-lg mt-10 shadow-md border max-md:w-full">
+      <div className=" xl:w-[70%] xl:mx-[15%]  rounded-lg mt-10 shadow-md border max-md:w-full bg-white">
         <div className=" flex  justify-between text-ligthYellow mt-4">
           {SectionTwoItems.map((item) => (
             <div
@@ -40,7 +37,7 @@ const SectionTwo = () => {
             alt={selectedItem.name}
             width={1000}
             height={1000}
-            className="w-[50%] h-full object-contain max-md:w-full"
+            className="w-[50%] h-[90%] object-contain max-md:w-full"
           />
         </div>
       </div>

@@ -12,14 +12,17 @@ const MainSection = () => {
         alt="landing banner"
         className="absolute z-[-10] left-0 top-0 object-cover h-full w-full"
       />
-      <MotionDiv>
+      <MotionDiv className="flex flex-col">
         <div className="text-center flex flex-col  font-bold relative bg-clip-text text-transparent text-[3.5rem] max-lg:text-[45px] max-sm:text-[22px] bg-gradient-to-b from-custom-blue to-custom-purple">
-          <span className="p-0 m-0 ">AI-Powered Pre-Construction </span>
-          <span className="p-0 -mt-10 mb-5 max-lg:-mt-5 max-md:mb-2 max-sm:-mt-1"> Platform for 2D CAD</span>
+          <span className="p-0 m-0 ">AI POWERED CONNECTED DATA </span>
+          <span className="p-0 -mt-10 mb-5 max-lg:-mt-5 max-md:mb-2 max-sm:-mt-1">
+            {" "}
+            PLATFORM FOR CONSTRUCTION PROJECTS
+          </span>
         </div>
         <p className=" text-dark-text font-bold text-[16px] max-sm:text-[12px] golos-text text-center my-3 ">
-          Drive growth and rank higher on search engines <br /> with the most
-          advanced SEO tools.
+          Generate, Optimize & Control “Budget & Schedules“with greater Speed &
+          efficiency right from 2D CAD.
         </p>
         <div className="flex  items-center gap-2 mx-auto max-sm:w-[80%]">
           <input
