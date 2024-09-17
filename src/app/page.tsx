@@ -11,13 +11,16 @@ import Write from "./Components/Write";
 
 export default function Home() {
   return (
-    <div className="  w-full h-full">
+    <div className="  w-full h-full ">
       <div className="mx-auto w-full h-full relative">
         <Header />
         <MainSection />
-        <SectionTwo />
+        <div>
+
         <Sectionthree />
+        <SectionTwo />
         <Sectionfour />
+        </div>
         <h1 className="text-4xl font-bold text-ligthGreen text-center max-sm:mt-10">Role-Based Solutions</h1>
         <Card
           title="Architects"

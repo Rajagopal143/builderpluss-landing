@@ -24,6 +24,9 @@ const config: Config = {
         foreground: "var(--foreground)",
         ligthGreen: "rgba(34,195,39,1)",
         ligthYellow: "rgba(226,154,0,1)",
+        "custom-blue": "#2E56A7",
+        "custom-purple": "#BB6DE5",
+        "dark-text": "rgba(0, 0, 0, 0.7)",
       },
       backgroundImage: {
         theme:
@@ -34,3 +37,4 @@ const config: Config = {
   plugins: [],
 };
 export default config;
+

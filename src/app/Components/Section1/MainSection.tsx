@@ -1,34 +1,38 @@
-import Blur from '@/utils/Blur'
-import React from 'react'
+import React from "react";
+import { MotionDiv } from "../AnimatedDiv";
+import Image from "next/image";
 
 const MainSection = () => {
   return (
-    <div className="w-full h-[100vh] max-sm:h-[100vh]   flex flex-col items-center justify-center relative">
-      <Blur className='top-0 right-28'/>
-      <div className="absolute w-32 h-32 -z-[10] bottom-0 left-0   bg-theme blur-3xl"></div>
-      <div className=" flex flex-col ">
-        <h1 className="text-center font-bold bg-ligthGreen bg-clip-text text-transparent text-[65px] max-sm:text-[32px]">
-          AI-Powered Pre-Construction
-        </h1>
-        <h1 className="text-center font-bold bg-ligthYellow bg-clip-text text-transparent text-[65px] max-sm:text-[32px] -mt-10 max-sm:mt-0">
-          Platform for 2D CAD
-        </h1>
-      </div>
-      <p className=" text-[#575252] font-semibold text-[16px] golos-text text-center my-3 ">
-        Drive growth and rank higher on search engines <br /> with the most
-        advanced SEO tools.
-      </p>
-      <div className="flex max-sm:flex-col items-center gap-3 ">
-        <input
-          type="text"
-          className="w-[300px] h-[50px] border outline-none shadow-lg shadow-theme pl-3 rounded-md "
-        />
-        <button className="w-[140px] h-[50px] bg-[#28263C] text-white ml-3 rounded-md">
-          Subscribe
-        </button>
-      </div>
+    <div className="w-full h-[100vh]    flex flex-col items-center justify-center relative">
+      <Image
+        width={1000}
+        height={1000}
+        src={"/landing banner.jpg"}
+        alt="landing banner"
+        className="absolute z-[-10] left-0 top-0 object-cover h-full w-full"
+      />
+      <MotionDiv>
+        <div className="text-center flex flex-col  font-bold relative bg-clip-text text-transparent text-[3.5rem] max-lg:text-[45px] max-sm:text-[22px] bg-gradient-to-b from-custom-blue to-custom-purple">
+          <span className="p-0 m-0 ">AI-Powered Pre-Construction </span>
+          <span className="p-0 -mt-10 mb-5 max-lg:-mt-5 max-md:mb-2 max-sm:-mt-1"> Platform for 2D CAD</span>
+        </div>
+        <p className=" text-dark-text font-bold text-[16px] max-sm:text-[12px] golos-text text-center my-3 ">
+          Drive growth and rank higher on search engines <br /> with the most
+          advanced SEO tools.
+        </p>
+        <div className="flex  items-center gap-2 mx-auto max-sm:w-[80%]">
+          <input
+            type="text"
+            className="w-[300px] h-[50px] border-2 outline-none shadow-lg shadow-theme pl-3 rounded-md max-sm:h-[30px] "
+          />
+          <button className="w-[140px] h-[50px] bg-[#28263C] text-white  rounded-md max-sm:w-full max-sm:h-[30px] text-[10px]">
+            Subscribe
+          </button>
+        </div>
+      </MotionDiv>
     </div>
   );
-}
+};
 
-export default MainSection
+export default MainSection;
