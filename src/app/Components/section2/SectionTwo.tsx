@@ -10,7 +10,7 @@ const SectionTwo = () => {
   return (
     <div className="h-screen w-full rounded-3xl backdrop-blur-sm relative ">
       <h1 className="bg-theme bg-clip-text text-transparent text-center text-[44px] font-bold   ">
-        AI-Powered Pre-Construction
+        HOW IT'S WORK 
       </h1>
       <div className=" xl:w-[70%] xl:mx-[15%]  rounded-lg mt-10 shadow-md border max-md:w-full bg-white">
         <div className=" flex  justify-between text-ligthYellow mt-4">

@@ -17,7 +17,7 @@ const Write = () => {
             <Heading className="font-bold text-[3rem]">Get Started</Heading>
             <Heading className=" font-semibold text-[2rem]">
               {" "}
-              Optimize Your 2D CAD Workflows
+              Optimize Your Pre-Construction Workflows
             </Heading>
             <p className=" mt-5 text-dark-text font-semibold text-[16px]">
               Enhance your pre-construction workflows with our AI-powered

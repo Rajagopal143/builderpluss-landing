@@ -42,8 +42,8 @@ const Card = ({ title, imgurl, points, reverse }: CardProps) => {
               <Heading className="text-[18px]">
                 <span>{point.title}</span>
               </Heading>
-              <p className=" font-semibold text-[#4C4C4C] ">
-                {point.discription}
+              <p className="p-5 pl-0 font-semibold text-[#4C4C4C] ">
+                &nbsp;&nbsp;&nbsp;&nbsp;{point.discription}
               </p>
             </div>
           ))}

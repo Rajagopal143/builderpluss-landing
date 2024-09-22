@@ -1,9 +1,8 @@
 export const NavItems: NavItem[] = [
   { name: "Features", hasDropdown: true },
-  { name: "Developers", hasDropdown: false, label: "New" }, // Add a label for when there's no dropdown
+  { name: "How it's Work", hasDropdown: true, label: "New" }, // Add a label for when there's no dropdown
   { name: "Use Case", hasDropdown: true },
-  { name: "Partners", hasDropdown: true },
-  { name: "Pricing", hasDropdown: true }
+  {name: "contact us", hasDropdown: true },
 ];
 
 type NavItem = {
@@ -83,7 +82,7 @@ export const features = [
   },
   {
     id: 2,
-    icon: "/revit.png",
+    icon: "/data-collection.png",
     name: "Automated Procurement Processes: ",
     discription:
       "GraphBIM can link project specifications with procurement needs, automating purchase orders (POs) based on construction stages, material requirements, and timelines. This ensures materials are ordered just in time, minimizing storage costs.",
@@ -97,7 +96,7 @@ export const features = [
   },
   {
     id: 4,
-    icon: "/data-collection.png",
+    icon: "/revit.png",
     name: "Seamless Revit Integration: ",
     discription:
       "Automatically link your enriched 2D CAD files to Revit for 3D model development. Our platform supports data enrichment, allowing teams to expand their project models from CAD to BIM without starting from scratch. ",

@@ -12,8 +12,7 @@ const Sectionfour=()=>{
           <div className="pl-3 relative max-sm:pl-2 flex flex-wrap mt-5 max-sm:flex-col max-sm:w-full max-sm:py-10">
             {features.map((fea) => (
               <div key={fea.id} className="w-1/2 h-fit max-sm:w-full">
-                <div className="flex items-center gap-5 ">
-                  <span className="rounded-full bg-theme text-ligthGreen font-bold">
+                <div className="flex gap-2 ">
                     <Image
                       src={fea.icon}
                       alt={fea.name}
@@ -21,12 +20,13 @@ const Sectionfour=()=>{
                       height={1000}
                       className="w-10 h-10 p-2 bg-white rounded-full"
                     />
-                  </span>
+                  <div className="">
                   <h1 className="font-extrabold text-ligthGreen text-2xl">
                     {fea.name}
                   </h1>
+                    <p className="text-[13px] p-5 pl-0 max-md:hidden font-semibold text-[#4C4C4C]"> &nbsp;&nbsp;&nbsp;&nbsp;{fea.discription}</p>
+                  </div>
                 </div>
-                <p className="text-[13px] pl-14">{fea.discription}</p>
               </div>
             ))}
           </div>
